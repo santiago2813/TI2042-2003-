@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PROMETEO</string>
+    <string name="header_pantalla">HEADER</string>
+    <string name="flecha_atras">FLECHA</string>
+    <string name="imagen_logo">LOGO</string>
+    <string name="logo_correo">LOGO_CORREO</string>
+    <string name="texto_bienvenida">Bienvenidos</string>
+    <string name="input_correo">ejemplo@mail.com</string>
+    <string name="logo_candado">candado</string>
+    <string name="olvido_contraseña">¿olvido contraseña?</string>
+    <string name="descripcion_olvido">boton para recuperar contraseña</string>
+    <string name="bonton_login">Iniciar Sesión</string>
+    <string name="bonton_registrarse">Registrate</string>
+    <string name="contraseña">contraseña</string>
+    <string name="olv_contra">¿olvidate tu contraseña?</string>
+
+
+</resources>

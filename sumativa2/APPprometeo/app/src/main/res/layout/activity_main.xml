@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#80FFFFFF"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="415dp"
+        android:layout_height="328dp"
+        android:layout_marginTop="56dp"
+        android:background="#252b48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textbienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="336dp"
+        android:text="@string/texto_bienvenida"
+        android:textColor="#F3EFEF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagenlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="84dp"
+        android:contentDescription="@string/imagen_logo"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:srcCompat="@drawable/captura_de_pantalla_2023_10_05_203758" />
+
+    <ImageView
+        android:id="@+id/imagenflecha"
+        android:layout_width="49dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="344dp"
+        android:contentDescription="@string/flecha_atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <ImageView
+        android:id="@+id/logo_correo"
+        android:layout_width="53dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="296dp"
+        android:contentDescription="@string/logo_correo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logocorreo" />
+
+    <EditText
+        android:id="@+id/input_correo"
+        android:layout_width="277dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="288dp"
+        android:autofillHints="correo"
+        android:ems="10"
+        android:hint="@string/input_correo"
+        android:importantForAccessibility="yes"
+        android:inputType="textEmailAddress"
+        android:textColor="#E81919"
+        android:textColorHint="#303A71"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo_candado"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="220dp"
+        android:contentDescription="@string/logo_candado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo_candado" />
+
+    <EditText
+        android:id="@+id/input_contraseña"
+        android:layout_width="278dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="212dp"
+        android:autofillHints="correo"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/contraseña"
+        android:textColorHint="#223ED8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/olvido_contraseña"
+        android:layout_width="161dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="172dp"
+        android:autofillHints="correo"
+        android:contentDescription="@string/descripcion_olvido"
+        android:text="@string/olv_contra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/boton_registarse"
+        android:layout_width="279dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#252b48"
+        android:text="@string/bonton_registrarse"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="279dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#252b48"
+        android:text="@string/bonton_login"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
